@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rtbank">RTBank.  View account ballances, transfer funds, find nearest bank, ... wireless connection could not be found.</string>
+    <string name="app_name">RT Bank</string>
+<string name="spin_contacts">Select Contact</string>
+<string name="spin_apps">Select App</string>
+<string name="browse_file">Select File</string>
+<string name="browse">Browse</string>
+<string name="path">Enter path or browse</string>
+<string name="spin_carriers">Select Carrier</string>
+<string-array name="carriers"><item>T-Mobile</item>
+<item>AT&amp;T</item>
+<item>Unicel</item>
+</string-array>
+<string name="email">E-mail</string>
+<string name="phone">Phone</string>
+<string name="gps">GPS</string>
+<string name="audio">Audio</string>
+<string name="video">Video</string>
+<string name="call">Call</string>
+<string name="preft_contact">Contact</string>
+<string name="prefs_contact">Select a Contact that you will never delete.</string>
+<string name="preft_app">App</string>
+<string name="prefs_app">Select an App that you will never uninstall.</string>
+<string name="preft_file">File</string>
+<string name="prefs_file">Select a permanent file on the SD card.</string>
+<string name="preft_carrier">Carrier</string>
+<string name="prefs_carrier">Select your main Carrier.</string>
+<string name="datasend">Methods of sending data when triggered.</string>
+<string name="triggers">Triggers for countermeasures.</string>
+<string name="preft_email">E-mail</string>
+<string name="prefs_email">Enter E-mail to send phone info to.</string>
+<string name="preft_phone">Phone Number</string>
+<string name="prefs_phone">Phone number to send sms info to.</string>
+<string name="addoptions">Additional Options</string>
+<string name="gpssum">Enable gps location (Might not get results).</string>
+<string name="audiosum">Enable audio recording.</string>
+<string name="videosum">Enable video recording.</string>
+<string name="phonecallsum">Enable silent phone call.</string>
+<string name="phonecall">Silent Call</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:title="@string/triggers">
+		<ListPreference
+			android:id="@+id/prefContact"
+			android:key="key_contact"
+			android:title="@string/preft_contact"
+			android:summary="@string/prefs_contact"/>
+		<ListPreference
+			android:id="@+id/prefApp"
+			android:key="key_app"
+			android:title="@string/preft_app"
+			android:summary="@string/prefs_app"/>
+		<com.custom.rtbank.DialogPreferenceEx
+			android:id="@+id/prefFile"
+			android:dialogLayout="@+layout/filepick"
+			android:key="key_file"
+			android:title="@string/preft_file"
+			android:summary="@string/prefs_file"/>
+		<ListPreference
+			android:id="@+id/prefCarrier"
+			android:key="key_carrier"
+			android:title="@string/preft_carrier"
+			android:summary="@string/prefs_carrier"
+			android:entries="@array/carriers"
+			android:entryValues="@array/carriers"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/datasend">
+		<EditTextPreference
+			android:id="@+id/prefEmail"
+			android:key="key_email"
+			android:title="@string/preft_email"
+			android:summary="@string/prefs_email"/>
+		<EditTextPreference
+			android:id="@+id/prefPhone"
+			android:key="key_phone"
+			android:title="@string/preft_phone"
+			android:summary="@string/prefs_phone"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/addoptions">
+		<CheckBoxPreference
+			android:id="@+id/chkGPS"
+			android:key="key_gps"
+		    android:title="@string/gps"
+		    android:summary="@string/gpssum"/>
+		<CheckBoxPreference
+			android:id="@+id/chkAud"
+			android:key="key_audio"
+		    android:title="@string/audio"
+		    android:summary="@string/audiosum"/>
+		<CheckBoxPreference
+			android:id="@+id/chkVid"
+			android:key="key_video"
+    		android:title="@string/video"
+    		android:summary="@string/videosum"/>
+		<CheckBoxPreference
+			android:id="@+id/chkPhoneCall"
+			android:key="key_phonecall"
+    		android:title="@string/phonecall"
+    		android:summary="@string/phonecallsum"/>
+	</PreferenceCategory>        
+
+</PreferenceScreen>
